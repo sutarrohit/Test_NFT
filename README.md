@@ -31,7 +31,7 @@ Please checkout below usefull info.
   - npx hardhat compile
  - yarn hardhat compile
 
-6. Run depoly program
+6. Run deploy program
  - npx hardhat run scripts/deploy.js
   - yarn hardhat run scripts/deploy.js
 
