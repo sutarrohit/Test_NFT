@@ -9,34 +9,34 @@ Please checkout below usefull info.
   - npm init
   - npm install --save-dev hardhat
 
- --yarn init
- --yarn add --dev hardhat
+ -yarn init
+ -yarn add --dev hardhat
 
 
 2. To run hardhat run below command.
   - npx hardhat
- -- yarn hardhat
+ - yarn hardhat
 
 3. Run below command which makes Hardhat compatible with tests built with Waffle, it will install all necessary plugin like node modules,
    config file, git file,test file, etc.
    
  -  npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
--- yarn add --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
+- yarn add --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
 
 4. Check accounts details.
   - npx accounts
- -- yarn accounts
+  - yarn accounts
 
 5. Compile contracts
   - npx hardhat compile
--- yarn hardhat compile
+ - yarn hardhat compile
 
 6. Run depoly program
  - npx hardhat run scripts/deploy.js
- -- yarn hardhat run scripts/deploy.js
+  - yarn hardhat run scripts/deploy.js
 
 6. dotenv file 
- -- npm install dotenv --save
+  - npm install dotenv --save
 
 
 Folder in Hardhat
@@ -44,11 +44,11 @@ Folder in Hardhat
 2. Scirpts - We write deploy script.
 
 Hardhat commands:
--- yarn hardhat node - Get all accounts and private keys
--- yarn hardahat run scripts/deploy.js --netwrok newtwork name
+ - yarn hardhat node - Get all accounts and private keys
+ - yarn hardahat run scripts/deploy.js --netwrok newtwork name
 
 Always add dotenv pakage while use of .env file
--- yarn hardhat clean
+ - yarn hardhat clean
 
 To very your code use hardhat plugin and their tutorial
 npx hardhat verify --network mainnet DEPLOYED_CONTRACT_ADDRESS "Constructor argument 1"
