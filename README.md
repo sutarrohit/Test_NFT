@@ -1,4 +1,4 @@
-#Basic NFT contract 
+# Basic NFT contract 
 
 This is a Simple NFT contract to test ERC 721 standard, myNFT.sol is the contract which deployed on Rinkeby testnet and mint-nft.js javascript file to interact with the contract to generate new NFTS.
 
